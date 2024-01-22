@@ -2,6 +2,9 @@
   import svelteLogo from './assets/svelte.svg'
   import viteLogo from '/vite.svg'
   import Counter from './lib/Counter.svelte'
+
+  const re = new RegExp("/[\p{ASCII}&&\p{Decimal_Number}]/v")
+  console.log(re)
 </script>
 
 <main>
